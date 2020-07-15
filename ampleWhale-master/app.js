@@ -35,9 +35,9 @@ function handleEvent(event) {
   const value = Number(price * amount).toFixed(2);
   const link = createEtherscanLink(txHash);
   if (value > THRESHOLD) {
-    const output = `💸💸💸 Transfer detected 💸💸💸\n💲 ${value} in $${symbol} ${
+    const output = `🐋🚿∧ Transfer detected ∧🚿🐋\n💲 ${value} in $${symbol} ${
       tokens.isStable(symbol) ? 'stablecoin' : ''
-    } moved\n\n From: ${from_name} ${from}\n To: ${to_name} ${to}\n Tokens: ${amount} ${symbol}(${name})\n🔗 URL: ${link}`;
+    } moved\n\n From: ${from_name} ${from}\n To: ${to_name} ${to}\n 🔗 URL: ${link}`;
     console.log(output);
     if (!process.env.DEVELOPMENT) {
       tweet.tweet(output);

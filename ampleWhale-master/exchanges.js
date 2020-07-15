@@ -36,6 +36,18 @@ const EXCHANGE_ADDR = {
   '0x5baeac0a0417a05733884852aa068b706967e790': 'Cryptopia',
 
   '0x32be343b94f860124dc4fee278fdcbd38c102d88': 'Poloniex_1',
+
+  '0x742d35cc6634c0532925a3b844bc454e4438f44e': 'Bitfinex_2',
+
+  '0x876eabf441b2ee5b5b0554fd502a8e0600950cfa': 'Bitfinex_3',
+
+  '0xc5be99a02c6857f9eac67bbce58df5572498f40c': 'UniSwap_V2',
+
+  '0x689c56aef474df92d44a1b70850f808488f9769c': 'KuCoin_2',
+
+  '0x2b5634c42055806a59e9107ed44d43c426e58258': 'KuCoin_1',
+
+  '0x977c9abb01ed3e99e9953fd1f472ae9f459e7e70': 'Kyber_RAMPL'
 };
 
 function getAccountName(acc) {
